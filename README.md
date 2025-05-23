@@ -25,7 +25,7 @@ I'm a software developer with a strong focus on C++ and a background in Marine S
 
 *   **C++ Development Engineer** at Snowpack (2024 - Present)
     *   Developing new C++ features, optimizing performance, ensuring system stability, and testing portability.
-*   **Research Intern** at LSCE- CNRS & CEA, LOTUS Lab.- IRD FRANCE, EPOC Lab.- Univ. of BORDEAUX
+*   **Research Intern** at CNRS, CEA,IRD FRANCE (3 biggest scientifics institutes in France) 
     *   Modeled oceanic data, developed Python data pipelines, and analyzed system models using MATLAB and Ferret tools.
 
 ---
