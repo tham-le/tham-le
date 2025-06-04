@@ -65,8 +65,6 @@ I'm a software developer with a strong focus on C++ and a background in Marine S
 *   **Transcendence:** Built a Single Page Application featuring a 3D game and comprehensive user management system.
 *   **ft_irc:** Developed a robust IRC server in C++.
 
-*(Feel free to link these to your actual GitHub repositories if they are public!)*
-
 ---
 
 ### 🎓 Education:
