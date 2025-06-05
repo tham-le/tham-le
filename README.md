@@ -1,4 +1,4 @@
-# 👋 Hi, I’m Tham Le (@tham-le)
+# 👋 Hi, I’m Tham
 
 I'm a software developer with a strong focus on C, C++ and Python and a background in Marine Science. I'm passionate about building robust, efficient applications and enjoy tackling challenges in system design, performance optimization, and data analysis.
 
