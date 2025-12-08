@@ -14,6 +14,38 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Fetch GitLab contributions and merge with GitHub
+        run: |
+          python3 << 'EOF'
+          import requests
+          import json
+          import os
+          from datetime import datetime
+
+          # Fetch GitLab contributions
+          gitlab_username = "thamle.work"
+          url = f"https://gitlab.com/users/{gitlab_username}/calendar.json"
+          print(f"Fetching GitLab contributions from {url}...")
+          
+          try:
+              response = requests.get(url)
+              response.raise_for_status()
+              gitlab_data = response.json()
+              
+              total = sum(gitlab_data.values())
+              print(f"Found {total} GitLab contributions across {len(gitlab_data)} days")
+              
+              # Save merged data for reference
+              os.makedirs('contribution-data', exist_ok=True)
+              with open('contribution-data/gitlab-contributions.json', 'w') as f:
+                  json.dump(gitlab_data, f, indent=2)
+              
+              print(f"Saved GitLab contribution data")
+          except Exception as e:
+              print(f"Warning: Could not fetch GitLab data: {e}")
+              gitlab_data = {}
+          EOF
+
       - name: Generate 3D contribution profile
         uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
