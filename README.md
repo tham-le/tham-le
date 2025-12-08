@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![3D Contribution Graph](./profile-3d-contrib/profile-customize.svg)
+![3D Contribution Graph](https://raw.githubusercontent.com/tham-le/tham-le/main/profile-3d-contrib/profile-customize.svg)
 
 </div>
 
