@@ -1,6 +1,9 @@
 # Hi 
 R&D Engineer working on systems programming, media streaming, and cross-platform development.
+
 C/C++ • Rust • Python 
+
+
 And dogs love me!
 
 
